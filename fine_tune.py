@@ -2,6 +2,17 @@ import datetime
 from geneformer import Classifier
 import os
 
+# ================================================================================================================
+#
+# Original file: https://huggingface.co/ctheodoris/Geneformer/blob/main/examples/cell_classification.ipynb
+#
+# Notes:
+# Editted the file to use the right data source
+# I put the notebook into a script because I was having trouble requesting the right GPU and using a notebook at the same time
+# After fine tuning, we received an accuracy of 96 percent on the test split (80% train, 20% test)
+#
+# ================================================================================================================
+
 current_date = datetime.datetime.now()
 datestamp = f"{str(current_date.year)[-2:]}{current_date.month:02d}{current_date.day:02d}{current_date.hour:02d}{current_date.minute:02d}{current_date.second:02d}"
 datestamp_min = f"{str(current_date.year)[-2:]}{current_date.month:02d}{current_date.day:02d}"
