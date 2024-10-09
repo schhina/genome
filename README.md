@@ -2,8 +2,9 @@
 
 This repo contains files I used during my research. More detail about these files can be found in the paper
 
-Please check/update the paths to files used/referenced before running any of these notebooks!
+## Please check/update the paths to files used/referenced before running any of these notebooks!
 
+## Cleaning Data:
 Use these files in this order to clean and pre process data:
 - Celloracle:
     - [concat_mat.ipynb](concat_mat.ipynb)
